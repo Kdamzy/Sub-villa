@@ -8,11 +8,11 @@
     margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, rgb(0, 64, 255) 0%, #e1ffea22 160%);
+    background-image: url('../Assets/back.jpg');
     gap: 30px;
 }
 .newsletter h1{
-    color: black;
+    color: gainsboro;
     font-size: 45px;
     font-weight: 500;
 }

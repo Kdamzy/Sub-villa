@@ -5,7 +5,7 @@
     margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, rgb(13, 0, 255), #e1ffea22 160%);
+    background-image: url('../Assets/exclusive.png');
 }
 
 .offers-left{
@@ -16,13 +16,13 @@
 }
 
 .offers-left h1{
-    color: #171717;
+    color: white;
     font-size: 80px;
     font-weight: 600;
 }
 
 .offers-left p{
-    color: #171717;
+    color: white;
     font-size: 22px;
     font-weight: 600;
 }
