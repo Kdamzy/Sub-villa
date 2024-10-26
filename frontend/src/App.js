@@ -7,7 +7,7 @@ import LoginSignup from './Pages/LoginSignup';
 import Shop from './Pages/Shop';
 import ShopCategory from './Pages/ShopCategory';
 import Footer from './Components/Footer/Footer';
-import gadget_banner from './Components/Assets/banner_1.jpg'
+import gadget_banner from './Components/Assets/banner_3.webp'
 import phone_banner from './Components/Assets/banner_3.webp'
 import laptop_banner from './Components/Assets/banner_3.webp'
 
