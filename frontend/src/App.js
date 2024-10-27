@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
+import SignIn from './Pages/SignIn';
 import Shop from './Pages/Shop';
 import ShopCategory from './Pages/ShopCategory';
 import Footer from './Components/Footer/Footer';
@@ -27,6 +28,7 @@ function App() {
         </Route>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/login' element={<LoginSignup/>}/>
+        <Route path="/signin" element={<SignIn />} />
       </Routes>
       <Footer/>
       </BrowserRouter>
