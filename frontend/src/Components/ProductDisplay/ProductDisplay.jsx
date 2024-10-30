@@ -21,7 +21,7 @@ const ProductDisplay = (props) => {
                 <img src={star} alt='' />
                 <img src={star} alt='' />
                 <img src={star} alt='' />
-                <p>(1)</p>
+                <p>(122)</p>
             </div>
             <div className='productdisplay-price'>
                 <div className='productdisplay-price-old'>₦{product.old_price}</div>

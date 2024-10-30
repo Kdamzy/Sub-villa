@@ -4,8 +4,8 @@
     display: flex;
     margin: auto;
     padding: 0px 140px;
-    margin-bottom: 150px;
-    background-image: url('../Assets/exclusive.png');
+    margin-bottom: 100px;
+    background-image: url('../Assets/banner_1.jpg');
 }
 
 .offers-left{
@@ -16,13 +16,13 @@
 }
 
 .offers-left h1{
-    color: white;
+    color: blueviolet;
     font-size: 80px;
     font-weight: 600;
 }
 
 .offers-left p{
-    color: white;
+    color: blueviolet;
     font-size: 22px;
     font-weight: 600;
 }
