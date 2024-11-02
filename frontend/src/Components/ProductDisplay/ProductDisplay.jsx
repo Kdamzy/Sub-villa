@@ -1,15 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './ProductDisplay.css'
 import star from '../Assets/star.svg'
+import { ShopContext } from '../../Context/ShopContext';
 
 const ProductDisplay = (props) => {
     const {product} = props;
+    const {addToCart} = useContext(ShopContext);
   return (
     <div className='productdisplay'>
         <div className="productdisplay-left">
-            <div className='productdisplay-img'>
-                <img src={product.image} alt='' />
-            </div>
             <div className='productdisplay-img'>
             <img className='productdisplay-main-img' src={product.image} alt='' />
         </div>
@@ -32,6 +31,7 @@ const ProductDisplay = (props) => {
             oraimo HavyBass™ DSP enhances deeper bass, richer instrument details, crisper voice with dual
             digital processing chip by acoustics experts. Experience powerful sound with oraimo Rover.
             </div>
+            <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
         </div>
     </div>
   )
