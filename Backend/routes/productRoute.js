@@ -9,6 +9,7 @@ const {
   updateProduct,
 } = require("../controller/productCtrl");
 
+// Image upload endpoint
 router.post("/upload", uploadProduct, (req, res) => {
   res.json({
     success: true,
@@ -16,10 +17,11 @@ router.post("/upload", uploadProduct, (req, res) => {
   });
 });
 
-router.post("/", addProduct);
+
+router.post("/", uploadProduct, addProduct);
 router.get("/", getAllProducts);
 router.get("/:id", getProductById);
-router.delete("/:id", deleteProduct);
 router.put("/:id", updateProduct);
+router.delete("/:id", deleteProduct);
 
 module.exports = router;
