@@ -33,8 +33,7 @@ const AddProduct = () => {
     }
 
     try {
-      // Send the form data including the image directly to addProduct
-      const response = await addProduct(data);  // Ensure your addProduct API function handles FormData
+      const response = await addProduct(data);
       if (response.success) {
         alert('Product added successfully!');
         setFormData({
